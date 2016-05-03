@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router'
 
 import Task from './task.jsx';
+
 
 // App component - represents the whole app
 export default class App extends Component {
@@ -23,6 +25,10 @@ export default class App extends Component {
             <div className="container">
                 <header>
                     <h1>Roast Meter</h1>
+                    <ul role="nav">
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                    </ul>
                 </header>
 
                 <ul>
