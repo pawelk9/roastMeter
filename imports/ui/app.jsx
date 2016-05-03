@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Task from './task.jsx';
 import Navigation from "./navigation.jsx";
 
 // App component - represents the whole app
-export default class App extends Component {
+export default class App extends React.Component {
     getTasks() {
         return [
             { _id: 1, text: 'This is task' },

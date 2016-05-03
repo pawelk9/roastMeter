@@ -1,7 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 
 // Task component - represents a single todo item
-export default class Task extends Component {
+export default class Task extends React.Component {
     render() {
         return (
             <li>{this.props.task.text} {this.props.task._id}</li>

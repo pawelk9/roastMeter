@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router'
 
-export default class Navigation extends Component {
+export default class Navigation extends React.Component {
     render () {
         return (
             <div>
