@@ -23,15 +23,9 @@ export default class App extends React.Component {
         return (
             <div className="container">
                 <header>
-                    <h1>Roast Meter</h1>
                     <Navigation />
                 </header>
-
                 {this.props.children}
-
-                <ul>
-                    {this.renderTasks()}
-                </ul>
             </div>
         );
     }
